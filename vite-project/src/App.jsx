@@ -1,10 +1,15 @@
-import Hook from "./functional/fun"
+
+// import Hook from "./functional/fun"
+
+import TodoApp from "./functional/Todo"
+
 
 function App() {
 
   return (
     <>
-     <Hook/>
+     {/* <Hook/> */}
+     <TodoApp/>
   
     </>
   )
